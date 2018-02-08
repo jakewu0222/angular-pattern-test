@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { ModuleWithProviders, NgModule } from '@angular/core';
 
-import { AuthorizationService } from '../business-services/authorization/authorization.service';
+import { AuthorizationService } from '../middleware/authorization/authorization.service';
 import { SomeCoreDirective } from './directives/some-core.directive';
 import { NavigationComponent } from './navigation/navigation.component';
 import { NavigationService } from './navigation/navigation.service';

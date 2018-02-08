@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { ModuleWithProviders, NgModule } from '@angular/core';
 
-import { TodoService } from '../../business-services/dashboard/todo/todo.service';
+import { TodoService } from '../../middleware/dashboard/todo/todo.service';
 import { TodoAddComponent } from './todo-add/todo-add.component';
 import { TodoListComponent } from './todo-list/todo-list.component';
 import { TodoRoutingModule } from './todo-routing.module';
